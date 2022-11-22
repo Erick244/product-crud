@@ -1,0 +1,40 @@
+.table {
+	width: 80%;
+	border-collapse: collapse;
+}
+
+.table > thead {
+	font-size: 1.1rem;
+	text-align: left;
+}
+
+.table th {
+	font-weight: 500;
+}
+
+.table th, .table td {
+	padding: 15px;
+}
+
+.tbodyTr {
+	border-bottom: 1px solid black;
+}
+
+.edit, .delete {
+	color: #fff;
+	font-size: 1.4rem;
+}
+
+.edit {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #e2d518;
+	margin-right: 10px;
+}
+
+.delete {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #dc143c;
+	margin-right: 10px;
+}

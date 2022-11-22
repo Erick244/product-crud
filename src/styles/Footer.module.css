@@ -1,0 +1,16 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: #eee;
+	grid-area: footer;
+}
+
+.footer > a {
+	margin-right: 30px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
+}
+
+.footer > a > strong {
+	color: var(--blue2);
+}
